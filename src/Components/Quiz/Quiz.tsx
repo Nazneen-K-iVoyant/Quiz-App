@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './Quiz.css';
 import { data } from '../../assets/data';
+//com
 
 const Quiz = () => {
     const [index, setIndex] = useState(0); // Start from the first question
@@ -61,7 +62,7 @@ const Quiz = () => {
 
     return (
         <div className="container">
-            <h1>Quiz App</h1>
+            <h1>Quiz Application</h1>
             <hr />
             {showResult ? (
                 <div className="result">
